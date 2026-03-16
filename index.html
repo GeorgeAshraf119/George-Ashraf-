@@ -40,7 +40,7 @@
     .hero-name { font-size: clamp(3rem, 6vw, 5.5rem); font-weight: 800; line-height: 1; letter-spacing: -2px; margin-bottom: 16px; animation: fadeUp 0.8s 0.1s ease both; }
     .hero-name .accent { color: var(--accent); }
     .hero-role { font-family: 'Playfair Display', serif; font-size: clamp(0.85rem, 2vw, 1.1rem); color: var(--muted); font-style: italic; margin-bottom: 32px; animation: fadeUp 0.8s 0.2s ease both; }
-    .hero-desc { max-width: 460px; line-height: 1.8; font-size: 1rem; color: #a0a0b8; margin-bottom: 48px; animation: fadeUp 0.8s 0.3s ease both; }
+    .hero-desc { max-width: 460px; line-height: 1.8; font-size: 1.2rem; color: #a0a0b8; margin-bottom: 48px; animation: fadeUp 0.8s 0.3s ease both; }
     .hero-actions { display: flex; gap: 20px; flex-wrap: wrap; animation: fadeUp 0.8s 0.4s ease both; }
     .btn-main { background: var(--accent); color: var(--bg); border: none; padding: 16px 40px; cursor: pointer; font-family: 'Outfit', sans-serif; font-weight: 700; font-size: 0.85rem; letter-spacing: 1px; text-transform: uppercase; transition: all 0.3s; text-decoration: none; display: inline-block; }
     .btn-main:hover { background: #2effa0; transform: translateY(-3px); box-shadow: 0 20px 40px rgba(79,255,176,0.2); }
@@ -188,6 +188,8 @@
     <ul class="nav-links">
       <li><a href="#skills">Skills</a></li>
       <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#services">Services</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -266,12 +268,13 @@
     <div class="section-label reveal">Technical Expertise</div>
     <h2 class="section-title reveal">Skills &amp;<br/>Technologies</h2>
     <div class="skills-grid">
-      <div class="skill-card reveal"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-desc">Semantic markup, accessibility best practices, and modern HTML5 APIs.</div><div class="skill-level"><div class="skill-level-fill" style="width:90%"></div></div></div>
-      <div class="skill-card reveal"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-desc">Flexbox, Grid, animations, custom properties, and responsive design.</div><div class="skill-level"><div class="skill-level-fill" style="width:88%"></div></div></div>
-      <div class="skill-card reveal"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-desc">DOM manipulation, ES6+, event handling and interactive UIs.</div><div class="skill-level"><div class="skill-level-fill" style="width:70%"></div></div></div>
-      <div class="skill-card reveal"><div class="skill-icon">🅱️</div><div class="skill-name">Bootstrap 5</div><div class="skill-desc">Component-driven layouts, responsive grid, and utility classes.</div><div class="skill-level"><div class="skill-level-fill" style="width:85%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🌐</div><div class="skill-name">HTML5</div><div class="skill-desc">Semantic markup, accessibility best practices, and modern HTML5 APIs.</div><div class="skill-level"><div class="skill-level-fill" style="width:92%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🎨</div><div class="skill-name">CSS3</div><div class="skill-desc">Flexbox, Grid, animations, custom properties, and responsive design.</div><div class="skill-level"><div class="skill-level-fill" style="width:90%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">⚡</div><div class="skill-name">JavaScript</div><div class="skill-desc">DOM manipulation, ES6+, event handling and interactive UIs.</div><div class="skill-level"><div class="skill-level-fill" style="width:72%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🅱️</div><div class="skill-name">Bootstrap 5</div><div class="skill-desc">Component-driven layouts, responsive grid, and utility classes.</div><div class="skill-level"><div class="skill-level-fill" style="width:88%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">📐</div><div class="skill-name">Responsive Design</div><div class="skill-desc">Mobile-first design, fluid layouts, and cross-browser compatibility.</div><div class="skill-level"><div class="skill-level-fill" style="width:90%"></div></div></div>
       <div class="skill-card reveal"><div class="skill-icon">🔧</div><div class="skill-name">C++</div><div class="skill-desc">OOP principles, data structures, and algorithmic problem solving.</div><div class="skill-level"><div class="skill-level-fill" style="width:75%"></div></div></div>
-      <div class="skill-card reveal"><div class="skill-icon">📱</div><div class="skill-name">Responsive Design</div><div class="skill-desc">Mobile-first design, cross-browser compatibility and fluid layouts.</div><div class="skill-level"><div class="skill-level-fill" style="width:88%"></div></div></div>
+      <div class="skill-card reveal"><div class="skill-icon">🐙</div><div class="skill-name">Git & GitHub</div><div class="skill-desc">Version control, repositories, and collaborative development workflows.</div><div class="skill-level"><div class="skill-level-fill" style="width:65%"></div></div></div>
     </div>
   </section>
 
@@ -330,6 +333,75 @@
           <div class="project-stack" style="justify-content:center;"><span class="stack-tag">HTML5</span><span class="stack-tag">CSS3</span><span class="stack-tag">JavaScript</span></div>
           <a href="#" class="project-link">View Project →</a>
         </div>
+      </div>
+
+    </div>
+  </section>
+
+  <hr class="full-divider"/>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label reveal">Work & Training</div>
+    <h2 class="section-title reveal">Experience</h2>
+
+    <div class="reveal" style="border:1px solid var(--border);background:var(--surface);padding:40px 48px;position:relative;overflow:hidden;margin-bottom:2px;">
+      <div style="position:absolute;top:0;left:0;width:4px;height:100%;background:var(--accent);"></div>
+      <div style="display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px;">
+        <div>
+          <div style="font-size:0.75rem;font-family:'Playfair Display',serif;color:var(--accent);letter-spacing:2px;margin-bottom:10px;">2024 — Present</div>
+          <div style="font-size:1.3rem;font-weight:700;margin-bottom:6px;">Frontend Development Trainee</div>
+          <div style="color:var(--muted);font-size:0.95rem;">Digital Egypt Pioneers Initiative (DEPI) — Egypt</div>
+        </div>
+        <span style="background:rgba(79,255,176,0.1);color:var(--accent);border:1px solid rgba(79,255,176,0.3);font-size:0.7rem;padding:6px 16px;font-family:'Playfair Display',serif;letter-spacing:1px;white-space:nowrap;">TRAINING</span>
+      </div>
+      <ul style="color:var(--muted);font-size:0.9rem;line-height:2;padding-left:20px;">
+        <li>Trained in modern frontend development using HTML5, CSS3, JavaScript, and Bootstrap</li>
+        <li>Built responsive and accessible web interfaces as part of the national digital initiative</li>
+        <li>Developed practical projects applying UI/UX best practices and clean code principles</li>
+        <li>Collaborated with peers on real-world web development challenges</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr class="full-divider"/>
+
+  <hr class="full-divider"/>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="section-label reveal">What I Offer</div>
+    <h2 class="section-title reveal">Services</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:2px;">
+
+      <div class="reveal" style="background:var(--surface);border:1px solid var(--border);padding:36px 28px;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-4px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='translateY(0)'">
+        <div style="font-size:2.2rem;margin-bottom:16px;">🎨</div>
+        <div style="font-size:1.05rem;font-weight:700;margin-bottom:10px;">Landing Page Design</div>
+        <div style="font-size:0.85rem;color:var(--muted);line-height:1.7;">Professional, responsive landing pages that convert visitors into customers. Built with HTML, CSS & Bootstrap.</div>
+      </div>
+
+      <div class="reveal" style="background:var(--surface);border:1px solid var(--border);padding:36px 28px;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-4px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='translateY(0)'">
+        <div style="font-size:2.2rem;margin-bottom:16px;">📱</div>
+        <div style="font-size:1.05rem;font-weight:700;margin-bottom:10px;">Responsive Web Design</div>
+        <div style="font-size:0.85rem;color:var(--muted);line-height:1.7;">Websites that look and work perfectly on mobile, tablet, and desktop — every screen size covered.</div>
+      </div>
+
+      <div class="reveal" style="background:var(--surface);border:1px solid var(--border);padding:36px 28px;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-4px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='translateY(0)'">
+        <div style="font-size:2.2rem;margin-bottom:16px;">🌐</div>
+        <div style="font-size:1.05rem;font-weight:700;margin-bottom:10px;">Multi-Page Website</div>
+        <div style="font-size:0.85rem;color:var(--muted);line-height:1.7;">Full multi-section websites including Home, About, Services, Portfolio and Contact pages.</div>
+      </div>
+
+      <div class="reveal" style="background:var(--surface);border:1px solid var(--border);padding:36px 28px;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-4px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='translateY(0)'">
+        <div style="font-size:2.2rem;margin-bottom:16px;">🛠️</div>
+        <div style="font-size:1.05rem;font-weight:700;margin-bottom:10px;">Bug Fixing & Improvements</div>
+        <div style="font-size:0.85rem;color:var(--muted);line-height:1.7;">Fix layout issues, CSS bugs, responsiveness problems, or any frontend errors in your existing website.</div>
+      </div>
+
+      <div class="reveal" style="background:var(--surface);border:1px solid var(--border);padding:36px 28px;transition:all 0.3s;" onmouseover="this.style.borderColor='var(--accent)';this.style.transform='translateY(-4px)'" onmouseout="this.style.borderColor='var(--border)';this.style.transform='translateY(0)'">
+        <div style="font-size:2.2rem;margin-bottom:16px;">🔧</div>
+        <div style="font-size:1.05rem;font-weight:700;margin-bottom:10px;">Bootstrap Customization</div>
+        <div style="font-size:0.85rem;color:var(--muted);line-height:1.7;">Custom Bootstrap themes, components, and layouts tailored to your brand and requirements.</div>
       </div>
 
     </div>
